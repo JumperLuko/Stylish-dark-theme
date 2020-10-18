@@ -1,0 +1,57 @@
+/* by Jumper_Luko */
+
+body{
+	background: #000;
+    color: #ddd;
+}
+
+#header{
+    border-radius: 5px;
+    /* oh ID, arght */
+}
+
+fieldset{
+    border: 3px #272727 solid;
+}
+
+.CodeMirror-sizer{
+	/*background: beige;
+    color: #000;*/
+    background: #000;
+    color: #fff;
+}
+.CodeMirror-activeline-background {
+	background: #e8f2ff0a;
+}
+
+.CodeMirror {
+    border:none;
+	border-radius: 5px;
+}
+
+.CodeMirror-gutters{
+	background-color: #101010;
+    border-right: 1px solid #101010;
+}
+
+input, select{
+	background:#101010;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    margin:5px;
+}
+
+button{
+	background:#101010;
+    color:#fff;
+    border:6px solid #151515;
+    border-radius:15px;
+    padding:10px;
+    margin:5px;
+}
+
+input[type="checkbox"]{
+	color: green;
+}
